@@ -748,6 +748,35 @@ figure.item {
     padding:0px;
 	position:relative;
 }
+.landingp {
+    background: url('img/10.png') no-repeat;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+        background-size: cover;
+    padding: 0px;
+   
+	position:relative;
+}
+.textslide {
+    text-align: center;
+	width: 15vw;
+}
+.textslide > span {
+    font-size: 1vw;
+}
+.textslide > h1{
+	font-size:1.5vw;
+}
+.arrcenter{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.textslide > h3{
+	font-size:1vw;
+}
 .tab{
 	margin-bottom:3%
 }
