@@ -774,6 +774,52 @@ figure.item {
   align-items: center;
   justify-content: center;
 }
+
+
+.boxs {
+    position: relative;
+    display: block;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.boxs img{
+	width:100%;
+}
+.boxs .text {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 14%;
+    font-family: Arial,sans-serif;
+    color: #000;
+    width: 60%;
+}
+
+
+h4.panel-title {
+    border: 0.1vw solid;
+    border-radius: 2px;
+}
+
+.panel-title > a:before {
+    float: right !important;
+    font-family: FontAwesome;
+    content:"\f068";
+    padding-right: 5px;
+}
+.panel-title > a.collapsed:before {
+    float: right !important;
+    content:"\f067";
+}
+.panel-title > a:hover, 
+.panel-title > a:active, 
+.panel-title > a:focus  {
+    text-decoration:none;
+}
+
 .textslide > h3{
 	font-size:1vw;
 }
