@@ -808,6 +808,11 @@ h4.panel-title {
     border-radius: 2px;
 }
 
+.foots {
+    display: flex;
+    justify-content: center;
+}
+
 .panel-title > a:before {
     float: right !important;
     font-family: FontAwesome;
