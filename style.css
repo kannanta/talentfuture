@@ -798,7 +798,11 @@ figure.item {
     width: 60%;
 }
 
-
+.groupcont {
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;
+}
 h4.panel-title {
     border: 0.1vw solid;
     border-radius: 2px;
