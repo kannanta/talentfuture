@@ -748,7 +748,9 @@ figure.item {
     padding:0px;
 	position:relative;
 }
-
+.tab{
+	margin-bottom:3%
+}
 .box {	
     position: relative;
     display: block; /* Make the width of box same as image */
@@ -778,6 +780,12 @@ figure.item {
 	padding-top: 6vw;
     padding-bottom: 6vw;
 }
+.btrs{
+	display: flex;
+    justify-content: flex-start;
+	padding-top: 6vw;
+    padding-bottom: 6vw;
+}
 .inr {
     height: 0vw;
     margin-left: 50px;
@@ -785,6 +793,34 @@ figure.item {
     font-size: larger;
 	text-transform: uppercase;
 	text-align: end;
+}
+.inrs {
+    height: 0vw;
+    /*margin-left: 50px;*/
+    width: 11vw;
+    font-size: larger;
+	text-transform: uppercase;
+	text-align: start;
+}
+img.cjob {
+    width: 30vw;
+    justify-content: center;
+    display: flex;
+}
+.bts {
+    font-size: larger;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2vw;
+}
+h3.blufonts {
+    text-align: center;
+    font-size: 1vw;
+    margin-top: 1vw;
+}
+.but {
+    justify-content: center;
+    display: flex;
 }
 .inconts > .blog-one-footer {
   
