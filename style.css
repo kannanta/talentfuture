@@ -967,8 +967,8 @@ h1.section-title.wow.famfontR.copyrightf {
 
 i.fa.fa-phone.fa-rg {
     display: inline-block;
-    background: white;
-    color: black;
+    background: #0355a3;
+    color: white;
     border-radius: 50%;
     padding: 0.2em;
     line-height: initial !important;
@@ -976,13 +976,13 @@ i.fa.fa-phone.fa-rg {
     width: 1.5vw;
     text-align: center;
     font-size: 1vw;
-	transform: rotate(90deg);
+	/*transform: rotate(90deg);/*/
     margin-right: 7px;
 }
 i.fa.fa-envelope.fa-rg,i.fa.fa-map-marker.fa-rg {
     display: inline-block;
-    background: white;
-    color: black;
+    background: #0355a3;
+    color: white;
     border-radius: 50%;
     padding: 0.2em;
     line-height: initial !important;
@@ -991,7 +991,39 @@ i.fa.fa-envelope.fa-rg,i.fa.fa-map-marker.fa-rg {
     text-align: center;
     font-size: 1vw;
 }
-
+.fa-map-marker:before {
+	content:url('img/27.png');
+	content: ""!important;
+    background-image: url(img/27.png);
+       background-size: 18px 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 20px;
+    left: 50%;
+    width: 20px;
+}
+.fa-phone:before {
+	content:url('img/28.png');
+	content: ""!important;
+    background-image: url(img/28.png);
+       background-size: 18px 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 20px;
+    left: 50%;
+    width: 20px;
+}
+.fa-envelope:before {
+content:url('img/29.png');
+content: ""!important;
+    background-image: url(img/29.png);
+       background-size: 16px 15px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 1vw;
+    left: 50%;
+    width: 1vw;
+}
 .col-lg-6.col-md-6.col-sm-3.foot {
     position: absolute;
     /*top: 60vw;*/
