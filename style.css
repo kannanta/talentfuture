@@ -12,12 +12,16 @@ html,body{
     overflow-x: hidden;
 }
 @font-face {
-    font-family: 'raleway-bold';
-    src: url('assets/fonts/raleway-bold.woff') format('woff');
+    font-family: 'Roboto-Medium';
+    src: url("assets/fonts/Roboto-Medium.woff") format("woff");
     }
 @font-face {
-    font-family: 'raleway-medium';
-    src: url('assets/fonts/raleway-medium.woff') format('woff');
+    font-family: 'Roboto-Regular';
+    src: url("assets/fonts/Roboto-Regular.woff") format("woff");
+    }
+@font-face {
+    font-family: 'cambria-bold';
+    src: url('assets/fonts/cambria-bold.ttf') format('truetype');
     }
 @font-face {
     font-family: 'Montserrat-Regular';
@@ -66,6 +70,7 @@ body {
     color: black;
     border-radius: 12px;
     bottom: 2vw;
+	font-family:'cambria-bold';
 }
 .collapse.in {
     background-color: #1f446b;
@@ -158,7 +163,7 @@ img.img-responsive.abtimgss {
     margin-top: -13vw;
 }
 .slid1 .card-img-caption .card-text.famfont {
-    font-family: 'raleway-bold';
+    font-family: 'cambria-bold';
     text-align: right;
 	width: 55%;
     /* margin: 0% 20%; */
@@ -233,13 +238,13 @@ h3.section-title.wow.famfontR {
     color: black!important;
     font-size: 1vw;
     padding-right: 4vw;
-	font-family:'Montserrat-Regular';
+	font-family:'Roboto-Medium';
 }
 h4,h3,h6{
-	font-family:'raleway-bold';
+	font-family:'cambria-bold';
 }
 .leada {
-	font-family:'raleway-medium';
+	font-family:'Roboto-Regular';
 }
 .bluebsg:after {
     content: "";
@@ -650,9 +655,9 @@ img.cbg{
 	background-color:#f3d110;
 }
 .blu{
-	background-color:#1f446b!important;
+	background-color:#0355a3!important;
 	color: white;
-    border-color: #1f446b;
+    border-color: #0355a3;
 	width: 7em;
     margin-right: 3em;
 }
@@ -730,7 +735,7 @@ figure.item {
 }
 .middleline {
     background: linear-gradient(to right, transparent 0%, transparent calc(50% - 0.81px), white calc(50% - 0.8px), white calc(50% + 0.8px), transparent calc(50% + 0.81px), transparent 100%);
-    height: 38vw;
+    height: 36.3vw;
     width: 1vw;
 	bottom:0em!important;
 }
@@ -765,9 +770,15 @@ figure.item {
 }
 .textslide > span {
     font-size: 1vw;
+	font-family: 'Roboto-Regular';
 }
 .textslide > h1{
 	font-size:1.5vw;
+	font-family:'cambria-bold';
+}
+.panel-body{
+	font-family: 'Roboto-Regular';
+	color:white;
 }
 .arrcenter{
 	display: flex;
@@ -775,7 +786,9 @@ figure.item {
   justify-content: center;
 }
 
-
+span.section-title.wow.famfontR.whtcolors {
+    font-family: 'Roboto-Regular';
+}
 .boxs {
     position: relative;
     display: block;
@@ -802,6 +815,7 @@ figure.item {
     font-size: 1.5vw;
     color: white;
     text-align: center;
+	font-family: 'Roboto-Regular';
 }
 h4.panel-title {
     border: 0.1vw solid;
@@ -849,7 +863,7 @@ h4.panel-title {
 	right: 0;        
 	text-align: center;
 	top: 14%; /* Adjust this value to move the positioned div up and down */
-	font-family: Arial,sans-serif;
+	font-family: 'Roboto-Regular';
 	color: #000; /*Set your own colour*/
 	width: 60%; /* Set the width of the positioned div */
 }
@@ -877,6 +891,7 @@ h4.panel-title {
     font-size: larger;
 	text-transform: uppercase;
 	text-align: end;
+	font-family:'Roboto-Regular';
 }
 .inrs {
     height: 0vw;
@@ -885,26 +900,31 @@ h4.panel-title {
     font-size: larger;
 	text-transform: uppercase;
 	text-align: start;
+	font-family:'Roboto-Regular';
 }
 img.cjob {
     width: 30vw;
     justify-content: center;
     display: flex;
+	margin-left:1vw;
 }
 .bts {
     font-size: larger;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 2vw;
+    margin-top: 1vw;
+	font-family:'Roboto-Regular'
 }
 h3.blufonts {
     text-align: center;
     font-size: 1vw;
     margin-top: 1vw;
+	font-family:'Roboto-Regular'
 }
 .but {
     justify-content: center;
     display: flex;
+	margin-right: 1vw;
 }
 .inconts > .blog-one-footer {
   
@@ -1078,6 +1098,7 @@ li.dds > p, li.dds > span {
 h1.section-title.wow.famfontR {
     font-size: 2vw;
 	text-align:center;
+	font-family:'cambria-bold';
 }
 
 img.col-md-auto.sst {
