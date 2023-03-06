@@ -70,10 +70,10 @@ body {
     color: black;
     border-radius: 12px;
     bottom: 2vw;
-	font-family:'cambria-bold';
+	font-family:'Roboto-Medium';
 }
 .collapse.in {
-    background-color: #1f446b;
+ /*   background-color: #1f446b;*/
 }
 
 .collapse.in >ul.navbar-nav.ml-auto > li.nav-item > a {
@@ -769,16 +769,21 @@ figure.item {
 	width: 15vw;
 }
 .textslide > span {
-    font-size: 1.5vw;
+    font-size: 1vw;
 	font-family: 'Roboto-Regular';
 }
 .textslide > h1{
-	font-size:1.5vw;
+	font-size:1.4vw;
 	font-family:'cambria-bold';
+	text-transform: uppercase;
+    color: black;
+	margin-top: 10px;
 }
 .panel-body{
 	font-family: 'Roboto-Regular';
-	color:white;
+	color:black;
+	text-align: justify;
+    margin-bottom: 1vw;
 }
 .arrcenter{
 	display: flex;
@@ -812,7 +817,7 @@ span.section-title.wow.famfontR.whtcolors {
 }
 
 .groupcont {
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     color: white;
     text-align: center;
 	font-family: 'Roboto-Regular';
@@ -821,6 +826,8 @@ span.section-title.wow.famfontR.whtcolors {
 h4.panel-title {
     border: 0.1vw solid;
     border-radius: 2px;
+	color:black!important;
+	padding: 0.5vw;
 }
 
 .foots {
@@ -891,20 +898,20 @@ h4.panel-title {
 .inr {
     height: 0vw;
     margin-left: 50px;
-    width: 15vw;
-    font-size: larger;
+	width: 17vw;
+    font-size: 1.5vw;
 	text-transform: uppercase;
 	text-align: end;
-	font-family:'Roboto-Regular';
+	font-family:'cambria-bold';
 }
 .inrs {
     height: 0vw;
     /*margin-left: 50px;*/
-    width: 15vw;
-    font-size: larger;
+    width: 17vw;
+    font-size: 1.5vw;
 	text-transform: uppercase;
 	text-align: start;
-	font-family:'Roboto-Regular';
+	font-family:'cambria-bold';
 }
 img.cjob {
     width: 30vw;
@@ -913,12 +920,19 @@ img.cjob {
 	margin-left:1vw;
 }
 .bts {
-    font-size: larger;
+    font-size: 1.5vw;
     text-transform: uppercase;
     text-align: center;
     margin-top: 1vw;
 	font-family:'Roboto-Regular'
 }
+h3.blsf{
+	font-size: 1.2vw;
+    text-align: center;
+    font-family: 'Roboto-Medium';
+	margin-top:2vw;
+}
+	
 h3.blufonts {
     text-align: center;
     font-size: 1.5vw;
@@ -929,18 +943,19 @@ h3.blufonts {
     justify-content: center;
     display: flex;
 	margin-right: 1vw;
+	margin-top:2vw;
 }
 .inconts > .blog-one-footer {
   
-    justify-content: left;
+    justify-content: le*ft;
 }
 .incont > .blog-one-footer {
   
     justify-content: left;
 }
 .leada{
-	text-align:justify;
-	font-size: 1.2vw;
+	text-align: center;
+    font-size: 1.1vw;
 	line-height: 2vw;
 }
 
@@ -1021,7 +1036,7 @@ content:url('img/29.png');
 
 .whtcolors {
    
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 .form-group.row {
     padding-bottom: 1vw;
