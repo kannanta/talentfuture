@@ -769,7 +769,7 @@ figure.item {
 	width: 15vw;
 }
 .textslide > span {
-    font-size: 1vw;
+    font-size: 1.5vw;
 	font-family: 'Roboto-Regular';
 }
 .textslide > h1{
@@ -816,6 +816,7 @@ span.section-title.wow.famfontR.whtcolors {
     color: white;
     text-align: center;
 	font-family: 'Roboto-Regular';
+	margin-bottom: 4vw;
 }
 h4.panel-title {
     border: 0.1vw solid;
@@ -825,6 +826,9 @@ h4.panel-title {
 .foots {
     display: flex;
     justify-content: center;
+	float: right;
+    height: 16vw;
+    width: 30vw;
 }
 
 .panel-title > a:before {
@@ -882,12 +886,12 @@ h4.panel-title {
 	display: flex;
     justify-content: flex-start;
 	padding-top: 6vw;
-    padding-bottom: 6vw;
+    padding-bottom: 7vw;
 }
 .inr {
     height: 0vw;
     margin-left: 50px;
-    width: 11vw;
+    width: 15vw;
     font-size: larger;
 	text-transform: uppercase;
 	text-align: end;
@@ -896,7 +900,7 @@ h4.panel-title {
 .inrs {
     height: 0vw;
     /*margin-left: 50px;*/
-    width: 11vw;
+    width: 15vw;
     font-size: larger;
 	text-transform: uppercase;
 	text-align: start;
@@ -917,7 +921,7 @@ img.cjob {
 }
 h3.blufonts {
     text-align: center;
-    font-size: 1vw;
+    font-size: 1.5vw;
     margin-top: 1vw;
 	font-family:'Roboto-Regular'
 }
@@ -991,39 +995,16 @@ i.fa.fa-envelope.fa-rg,i.fa.fa-map-marker.fa-rg {
     text-align: center;
     font-size: 1vw;
 }
+/*
 .fa-map-marker:before {
 	content:url('img/27.png');
-	content: ""!important;
-    background-image: url(img/27.png);
-       background-size: 18px 20px;
-    display: inline-block;
-    background-repeat: no-repeat;
-    height: 20px;
-    left: 50%;
-    width: 20px;
 }
 .fa-phone:before {
 	content:url('img/28.png');
-	content: ""!important;
-    background-image: url(img/28.png);
-       background-size: 18px 20px;
-    display: inline-block;
-    background-repeat: no-repeat;
-    height: 20px;
-    left: 50%;
-    width: 20px;
 }
 .fa-envelope:before {
 content:url('img/29.png');
-content: ""!important;
-    background-image: url(img/29.png);
-       background-size: 16px 15px;
-    display: inline-block;
-    background-repeat: no-repeat;
-    height: 1vw;
-    left: 50%;
-    width: 1vw;
-}
+}*/
 .col-lg-6.col-md-6.col-sm-3.foot {
     position: absolute;
     /*top: 60vw;*/
