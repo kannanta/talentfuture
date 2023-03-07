@@ -728,7 +728,36 @@ figure.item {
     bottom: 8vw;
     width: 34%;
     left: 58%;
+	height: 30vw;
 }
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: ""!important;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: ""!important;
+}
+.sample-slider{
+        width:70%;
+    }
+    .sample-slider img{
+        width: 100%;
+    }
+    /*hide default arrows*/
+    .sample-slider [class^="swiper-button-"]::after{
+        content: "";
+    }
+    /*adjust arrow size*/
+    .sample-slider [class^="swiper-button-"]{
+        width: 55px;
+        height: 55px;
+    }
+    /*adjust arrow position*/
+    .sample-slider .swiper-button-next{
+        right: -5px;
+    }
+    .sample-slider .swiper-button-prev{
+        left: -5px;
+    }
 .flex.justify-content-center {
     left: 50%;
     bottom:2em;
@@ -1009,6 +1038,16 @@ i.fa.fa-envelope.fa-rg,i.fa.fa-map-marker.fa-rg {
     width: 1.5vw;
     text-align: center;
     font-size: 1vw;
+}
+div.swiper-button-next, div.swiper-button-prev {
+  top: 0;
+  position: relative;
+}
+
+.swiper-button-next, .swiper-button-prev {
+width:0!important;	
+right:0!important;
+left:0!important;
 }
 /*
 .fa-map-marker:before {

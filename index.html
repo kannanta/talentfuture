@@ -8,6 +8,9 @@
        <link rel="stylesheet" href="css/bootstrap.min.css" />
        <link rel="stylesheet" href="css/all.css" />
        <link rel="stylesheet" href="css/font-awesome.min.css" />
+	   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 	   <link rel="stylesheet" href="style.css" />
        <!--link rel="stylesheet" href="css/fontawesome.css" /-->
    </head>
@@ -240,11 +243,11 @@
 			</div>
 		</div>
 	</div>
-	<div class="row" style="margin-top: 3vw;">
-        <div class="col-md-12 col-xs-12">
-			<div class="row">
-				<div class="col-lg-1 col-md-1 col-xs-1 arrcenter"><div class="arrowcenter"><img src="img/30.png"></div></div>
-				<div class="col-md-10 col-xs-10">
+	<div class="row mySwiper" style="margin-top: 3vw;">
+        <div class="col-md-12 col-xs-12 swiper-wrapper">
+			<div class="row swiper-slide">
+				<div class="col-lg-1 col-md-1 col-xs-1 arrcenter"><div class="arrowcenter swiper-button-prev"><img src="img/30.png"></div></div>
+				<div class="col-md-10 col-xs-10 ">
 				
 					<div class="row">
 						<div class="col-md-1 col-xs-1"></div>
@@ -311,11 +314,72 @@
 						</div>
 						<div class="col-md-1 col-xs-1"></div>
 					</div>
+					
 				
 				</div>
-				<div class="col-lg-1 col-md-1 col-xs-1 arrcenter"><div class="arrowcenter"><img src="img/31.png"></div></div>
+				<div class="col-lg-1 col-md-1 col-xs-1 arrcenter"><div class="arrowcenter swiper-button-next"><img src="img/31.png"></div></div>
 				
+			</div> <!-- first row- -->
+			
+			
+			<!--second row -->
+			
+			<div class="row swiper-slide">
+				<div class="col-lg-1 col-md-1 col-xs-1 arrcenter"><div class="arrowcenter swiper-button-prev"><img src="img/30.png"></div></div>
+				<div class="col-md-10 col-xs-10 ">
+				
+					<div class="row">
+						<div class="col-md-1 col-xs-1"></div>
+						<div class="col-md-2 col-xs-2" style="margin-right:2vw;">							
+							<div class="textslide">
+								<img src="img/11.png">
+								<h1 class="blufont">ACC check</h1>
+								<span>Reveals serial ACC claimants to help you manage your business risk.</span>
+							</div>
+						</div>
+						<div class="col-md-2 col-xs-2" style="margin-right:2vw;">							
+							<div class="textslide">
+								<img src="img/12.png">
+								<h1 class="blufont">Credit and debt check</h1>
+								<span>Checking a candidate’s credit and debt situation can help you determine their trust worthiness.  </span>
+							</div>
+						</div>
+						<div class="col-md-2 col-xs-2" style="margin-right:2vw;">							
+							<div class="textslide">
+								<img src="img/13.png">
+								<h1 class="blufont">Criminal record check</h1>
+								<span>Criminal history checks are available for Western Australia</span>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-1 col-xs-1"></div>
+						<div class="col-md-2 col-xs-2" style="margin-right:2vw;">							
+							<div class="textslide">
+								<img src="img/11.png">
+								<h1 class="blufont">ACC check</h1>
+								<span>Reveals serial ACC claimants to help you manage your business risk.</span>
+							</div>
+						</div>
+						<div class="col-md-2 col-xs-2" style="margin-right:2vw;">							
+							<div class="textslide">
+								<img src="img/12.png">
+								<h1 class="blufont">Credit and debt check</h1>
+								<span>Checking a candidate’s credit and debt situation can help you determine their trust worthiness.  </span>
+							</div>
+						</div>
+						<div class="col-md-2 col-xs-2" style="margin-right:2vw;">							
+							<div class="textslide">
+								<img src="img/13.png">
+								<h1 class="blufont">Criminal record check</h1>
+								<span>Criminal history checks are available for Western Australia</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-1 col-md-1 col-xs-1 arrcenter"><div class="arrowcenter swiper-button-next"><img src="img/31.png"></div></div>
 			</div>
+			<!--second row -->
 		</div>
 	</div>
 </div>
@@ -345,7 +409,7 @@
 						<div>						
 							<h1 class="section-title wow famfontR blufont" style="visibility: visible;text-align:left;">WHY CHOOSE US</h1>						
 						</div> 
-						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+						<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true" style="height: 30vw;overflow-y: scroll;">
 							<div class="panel panel-default">
 								<div class="panel-heading" role="tab" id="headingOne">
 									 <h4 class="panel-title">
@@ -522,5 +586,15 @@
 </div>
 </div>
 </div>
+<script type="text/javascript">
+let swiper = new Swiper(".mySwiper", {
+   spaceBetween: 50,
+   direction: 'horizontal',
+ navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      }
+ });
+ </script>
 </body>
 </html>
