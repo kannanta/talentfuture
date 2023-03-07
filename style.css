@@ -1049,6 +1049,19 @@ width:0!important;
 right:0!important;
 left:0!important;
 }
+.swiper-notification{
+	display:none;
+}
+.swiper-button-prevs.swiper-button-disabled{
+	opacity: .35;
+    cursor: auto;
+    pointer-events: none;
+}
+.swiper-button-nexts.swiper-button-disabled{
+	opacity: .35;
+    cursor: auto;
+    pointer-events: none;
+}
 /*
 .fa-map-marker:before {
 	content:url('img/27.png');
